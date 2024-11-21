@@ -33,3 +33,19 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+// https://262.ecma-internetional.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (P), Heap (Non-Primitive)
+
+let myname = "Shahzad Khan"
+
+let anothername = myname
+    anothername = "Shahbaz Khan"
+
+    console.log(myname);
+    console.log(anothername);
